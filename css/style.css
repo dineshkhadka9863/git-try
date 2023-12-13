@@ -1,0 +1,44 @@
+h1{
+    color: red;
+    text-align: center;
+}
+li{
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+}
+
+p{
+    text-align: justify;
+}
+table{
+    border-collapse: collapse;
+    margin: 5px;
+    align-content: center;
+}
+th, td{
+    border: 1px solid black;
+}
+td.hor{
+    writing-mode:tb;
+    transform: rotate(180deg);
+}
+ul{
+    padding-left: 0px;
+    /* display: block; */
+}
+header li{
+    display: inline;
+    text-decoration: none;
+    /* color: aqua; */
+}
+header li a{
+    text-decoration: none;
+    color: rgb(255, 127, 159);
+}
+
+.active{
+    color: rgb(123, 0, 255);
+    border: 1px solid;
+
+}

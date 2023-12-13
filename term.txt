@@ -1,0 +1,23 @@
+tags/ elements
+for eg: html, head , body etc
+
+attributes
+for eg: img, 
+
+research relative vs absolute path
+
+&nbsp; used to give space in in the linl
+
+control space = helps to show space for link
+control enter  = helps to go new line in code
+ alt shift down = copy same  line code in new line
+
+ hold alt and down/ up to move code
+
+ f2 = rename
+
+ end key = helps to move curser into end of the code
+
+ hold alt and press different line for multiple curser
+
+ 
