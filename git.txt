@@ -14,3 +14,14 @@
     or git add git.txt   ( for adding only one file git.txt file)
 3. git commit -m "html-css"
 4. git push
+
+
+// to pull
+1. git clone https://github.com/sagartmg2/mangsir-2/
+
+
+//to restore
+   
+   git restore .
+   git clean -f -d 
+   git pull
