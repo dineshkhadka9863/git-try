@@ -20,4 +20,14 @@ control enter  = helps to go new line in code
 
  hold alt and press different line for multiple curser
 
+
+  .parent = it will make div with class name parent in html
+
+  .child*3  = will make 3 div with class name child in html
+
+
+  .child8*3>{child-$} = it will make 3 div with class name child and with text child-1, child-2, and child-3 resectively
+
+
+
  

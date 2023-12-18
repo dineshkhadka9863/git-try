@@ -19,9 +19,12 @@
 // to pull
 1. git clone https://github.com/sagartmg2/mangsir-2/
 
+// to copy updated code fro other git
+   1. git pull  ( in the terminal of the code of received git from git)
+
 
 //to restore
    
-   git restore .
+   git restore .      (these code helps to clean your modification and pull others code if you had modified it)
    git clean -f -d 
    git pull

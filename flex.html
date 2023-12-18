@@ -4,17 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-right{
+            display: flex;
+        }
+        img{
+            height: 1rem;
+        }
+        .nav-center-ul{
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            padding: 0px;
+        }
+
+        .second{
+            border: 1px solid;
+            display: flex;
+        }
+        .second img{
+            height: 150px;
+        }
+
+
+    </style>
 </head>
 <body>
-    <header>
-        <ul>
-            <li> Dinesh Khadka</li>
-            <li> Mithila Khadka</li>
-            <li> Uddhab Khadka</li>
-            <li> Ujjwal Khadka</li>
+    <div class="navbar">
+        <div class="navchild nav-right">
+            <div class="logo"> <img src="/imge/firelogo.png"> </div>
+            <div class="logo-text">
+                <span>LaslesVPN</span>
+            </div>
+        </div>
+        <div class="navchild nav-center">
+            <ul class="nav-center-ul">
+                <li class="nav-center-list">About</li>
+                <li class="nav-center-list"> Features</li>
+                <li class="nav-center-list"> Pricing</li>
+                <li class="nav-center-list"> Testimonials</li>
+                <li class="nav-center-list"> Help</li>
+            </ul>
+        </div>
+        <div class="navchild sign">
+            <button class="signin"> SignIn</button>
+            <button class="signout"> SignOut</button>
+        </div>
+    </div>
+    <div class="second">
+        <div>
+            <div> <p> Want anything to be easy with LaslesVPN </p></div>
+        </div>
+        <div> <img src="/imge/Illustration 1.png"></div>
+    </div>
 
-        </ul>
-    </header>
+
     
 </body>
 </html>
