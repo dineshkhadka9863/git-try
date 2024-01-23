@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5rem;
+        }
+        .nav-right{
+            display: flex;
+            padding: 5px;
+            margin: 3rem;
+        }
+        img{
+            height: 1rem;
+        }
+        .nav-center-ul{
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            padding: 0px;
+        }
+        .sign{
+            padding: 5px;
+            margin: 3rem;
+        }
+        .sign .signin{
+            margin: .5rem;
+            padding: 5px;
+            border: 0;
+           
+           
+        }
+        .sign .signout{
+            margin: .5rem;
+            padding: 5px;
+            border: .5px solid;
+            border-radius: 25px;
+            border-color: rgb(245, 71, 71);
+            width: 5rem;
+        }
+        
+        .second{
+            /* border: 1px solid; */
+            display: flex;
+            justify-content:space-around ;
+            height: 12rem;
+        }
+        .second div button{
+            background-color: rgb(245, 71, 71);
+            height: 2rem;
+            border-radius: 10px;
+            border-color: rgb(245, 71, 71);
+            color: white;
+            width: 10rem;
+            margin-left: 50px;
+        }
+        .second img{
+            height: 150px;
+        }
+        
+        .second-right{
+             display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+       }
+        
+
+
+    </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navchild nav-right">
+                <div class="logo"> <img src="/imge/firelogo.png"> </div>
+                <div class="logo-text">
+                    <span>LaslesVPN</span>
+                </div>
+            </div>
+            <div class="navchild nav-center">
+                <ul class="nav-center-ul">
+                    <li class="nav-center-list">About</li>
+                    <li class="nav-center-list"> Features</li>
+                    <li class="nav-center-list"> Pricing</li>
+                    <li class="nav-center-list"> Testimonials</li>
+                    <li class="nav-center-list"> Help</li>
+                </ul>
+            </div>
+            <div class="navchild sign">
+                <button class="signin"> Sign In</button>
+                <button class="signout"> Sign Out</button>
+            </div>
+        </div>
+        <div class="second">
+            <div class="second-right">
+                <div> <p> Want anything to be easy with LaslesVPN </p></div>
+                <div class="secp"> <p>Provide a network for all your needs with
+                        ease and fun using LaslesVPN discover interesting
+                        fheatures from us. </p></div>
+                <div> <button> Get Started </button></div>
+            </div>
+            <div>
+                <img src="/imge/Illustration 1.png">
+            </div>
+        </div>
+
+    </body>
+</html>

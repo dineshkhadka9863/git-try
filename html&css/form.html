@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .main-box{
+            border: 1px solid;
+            border-radius: 10px;
+            border-color: #E27C00;
+            height: 500px;
+            width: 60%;
+            margin-top: 60px;
+            margin-left:200px ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e26d00af;
+
+        }
+
+        .main-right{
+
+            height: 90%;
+            width: 45%;
+            padding: 10px;
+            /* margin-top: 10px;
+            margin-left: 10px; */
+        }
+        .big-p p{
+            color: #FFF5C5;
+            font-size: x-large;
+            /* padding: 20px; */
+
+        }
+        .small-p{
+            color: #FFF5C5;
+            font-size: small;
+            text-transform: capitalize;
+            /* text-wrap: balance; */
+            /* padding-left: 10px; */
+
+        }
+        .main-right .container::after{
+            border: 1px solid;
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+
+        .form{
+            border: 1px solid;
+            border-radius: 10px;
+            border-color: white;
+            height: 90%;
+            width: 45%;
+            background-color: white;
+            padding: 10px;
+        }
+        .form .add::after{
+            content: "*";
+            color: red;
+        }
+        .form-box{
+            height: 23px;
+            width: 95%;
+            padding: 3px;
+            margin: 5px;
+            background:rgba(128, 128, 128, 0.605);
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .submit{
+            border: none;
+            border-radius: 50px;
+            margin-left: 70%;
+            margin-top: 35%;
+            width: 80px;
+            height: 25px;
+            background-color: #E27C00;
+        }
+        .container{
+            width: 20px;
+            height: 20px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <div class="main-right">
+            <div class="big-p">
+                <p> Request a Callback</p>
+            </div>
+            <div class="small-p">
+                <p> would you like to speak to one of our advisor over the phone?
+                    just submit your detail and will be in touch shortly. you can also
+                    email us if you would prefer.
+                </p>
+            </div>
+            <div class="container">
+
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <label class="add" for="name"> Name </label><br>
+                <input class="form-box" type="text" id="name" placeholder="Enter name" required>
+                <br><br>
+                <label class="add" for="name"> Name </label><br>
+                <input class="form-box" type="text" id="name" placeholder="Enter name" required>
+                <br><br>
+                <label class="add" for="email"> Email </label><br>
+                <input class="form-box" type="email" id="email" placeholder="Enter email" required>
+                <br><br>
+                <label class="add" for="phone"> Phone </label><br>
+                <input class="form-box"  type="number" id="phone" placeholder="Enter phone number" required>
+
+                <button class="submit"> submit </button>
+
+                 
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

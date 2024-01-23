@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+            
+        }
+        header{
+            border: 1px solid;
+            height: 100px;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            background-color: aqua;
+            position: sticky;
+            top: 0px;
+            z-index: 999;
+
+        }
+        header ul{
+           display: flex;
+           gap: 1rem;
+
+            
+        }
+       
+        .container{
+            padding-left: .75rem;
+            padding-right: .75rem;
+
+            
+        }
+        .card{
+            border: 1px solid;
+            height: 20rem;
+            width: 40%;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .circle1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-color: blue;
+            position: absolute;
+        }
+        .circle2{
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-color: rgb(192, 55, 55);
+            z-index: 1;
+        }
+        .b-height{
+            height: 15rem;
+            border: 1px solid;
+        }
+        .box{
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+            position: sticky;
+            top: 0px;
+        }
+        .paragraph{
+            width: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <ul>
+            <li><a href="#"> home</a> </li>
+            <li><a href="#"> about</a> </li>
+            
+        </ul>
+    </header>
+    <div class="container">
+        
+        <div class="card">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+
+    <div class="container b-height">
+
+        <div class="box">
+        </div>
+        
+    </div>
+    <div class="paragraph container">
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero esse nemo odio sapiente maxime at nulla sint dolor, a, quas eaque eos laudantium id nobis quam earum delectus, temporibus rem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum debitis consequuntur obcaecati. Et in consequatur ipsam! Nesciunt, consequatur fugit laboriosam facilis dolor saepe autem? Mollitia, odit voluptates pariatur veritatis hic corporis est. Aut excepturi aliquid sed natus dolore rerum ut fugiat. Ratione dolores quam dolorum rem veritatis ipsum rerum?
+        </p>
+    </div>
+    </body>
+</html>

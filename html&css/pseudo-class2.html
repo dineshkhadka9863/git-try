@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header ul{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+        header ul li:hover{
+            color: red;
+        }
+        .parent{
+            /* border: 1px solid; */
+            
+        }
+        .child{
+            border: 1px solid;
+            height: 50px;
+            width: 50px;
+            padding: 2rem;
+        }
+    .child.child:nth-child(2){
+        background-color: blue;
+    }
+        .fourth{
+            background-color: red;
+        }
+
+        /* pseudo element */
+
+        
+        label.hover::after{
+            content: "*";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="home"> home</li>
+            <li class="about"> about</li>
+            <li class="contact">contact</li>
+        </ul>
+    </header>
+    <div class="parent">
+        <div class="child">child-1</div>
+        <div class="child">child-2</div>
+        <div class="child">child-3</div>
+        <div class="child fourth">child-4</div>
+        <div class="child">child-5</div>
+    </div>
+
+    <form>
+        <label class="hover" for="">name</label>
+        <input type="text"><br>
+        <label for="phone">phone</label>
+        <input type="text" id="phone">
+        <br>
+        <label class="hover" for="">password</label>
+        <input type="password">
+        <br>
+        <label class="hover" for="">confirm password</label>
+        <input type="password">
+        <br>
+        <button>submit</button>
+      
+    </form>
+    
+</body>
+</html>
